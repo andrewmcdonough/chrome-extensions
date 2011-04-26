@@ -1,0 +1,11 @@
+{
+  "name": "getclicky add-ons",
+  "version": "0.1",
+  "description": "Hide the ads and link profiles on getclicky",
+  "content_scripts": [
+    {
+      "matches": ["http://getclicky.com/*"],
+      "js": ["jquery.js", "content.js"]
+    }
+  ]
+}
